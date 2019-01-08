@@ -2,27 +2,93 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+      body {
+        font-family: system;
+        font-weight: bold;
+        font-size: 1em;
+      }
+      .navbar.navbar-default {
+        border: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+      }
+
+      .navbar.navbar-default .navbar-collapse {
+        border: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+      }
+
+      .page-containter{
+        font-style:1em;
+        max-height: none;
+      }
+
+      .row {
+        display: -ms-flexbox; /*IE10*/
+        display: flex;
+        -ms-flex-wrap: wrap; /* IE10*/
+        flex-wrap: wrap;
+        padding: 5px 5px;
+        vertical-align: middle;
+        text-align: center;
+        padding-left: 15px;
+      }
+      .column {
+        -ms-flex: 45%; /* IE10*/
+        flex: 45%;
+        max-width: 45%;
+        padding: 0 0;
+        vertical-align: middle;
+        text-align: left;
+        font-style: 8px;
+        font-size: 1.3em;
+        font-weight: bold;
+      }
+      .column img {
+        margin-top: 0;
+        width: 115%;
+        vertical-align: right;
+      }
+
+      }
+    </style>
+
+    <!--<meta name="viewport" content="height=device-height, width=device-width initial-scale=1.0">-->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <link rel="icon" href="/campinile.jpg">
 
-    <title>Joma's Starter Template for NodeJs Web App</title>
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">-->
+
+
+    <title>CS61A</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--link href="css/bootstrap.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/paper/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/navbar-fixed-left.min.css">
+    <link rel="stylesheet" href="css/docs.css">
 
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">
 
+    <!--script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
+    <script href="js/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script href="js/docs.js"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+
   </head>
 
   <body>
-
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class = "navbar navbar-default navbar-fixed-left">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -31,28 +97,57 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="index.html">CS61A</a>
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
+        <div id="navbar" class="navbar-collapse collapse" aria-expanded="false">
+          <h5 style="font-weight: bold">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#wan">Button1</a></li>
-            <li><a href="#too">Button2</a></li>
-            <li><a href="#phree">Button3</a></li>
+            <li>
+              <a href="index.html">Home</a></li>
+            <li>
+              <a class="nav-link" href="/resources.html">Resources</a></li>
+            <li>
+              <a href="tips.html">Tips/Advice</a></li>
           </ul>
-        </div><!--/.nav-collapse -->
+        </h5>
+        </div>
       </div>
     </nav>
 
-    <div class="container">
+
+    <div class="page-container" fill-height>
 
       <div class="starter-template">
-        <h1>Joma is a Douche</h1>
-        <img id="headshot" src="headshot.jpg" alt="Mountain View">
-        <p class="lead">He will never get a girlfriend.<br> Not with that face.</p>
+        <h1 style="font-weight: bold" style ="margin-top:none" style="text-align: left">Welcome to CS61A!</h1>
+        <div class="row">
+          <div class="column">
+            <p> Hi!
+              This is a website that you can use as a resource to help you
+              in CS61A. It contains study guides on particular topics, tips and advice for studying, programs/visualizations that
+              can hopefully help you go through 61A, my office hours, and sections that I assist in.
+              I am Jack, a sophomore studying EECS who is a lab assistant in Cesar Plascencias' Lab.
+              <br><br>
+              Cesar's sections are:
+              <br><text-indent>
+                Lab 101: Monday/Tuesday | 8:00-9:30am Soda 101
+                <br> Discussion 101: Wednesday/Thursday | 8:00-9:30am Soda 101
+              <br><br>
+              My OH: Wednesday | 6:30-8:00pm Soda 101
+              <br> Email: jack.y.wang@berkeley.edu
+              <br><br>
+              I hope you have a great semester! :) <p>
+            </div>
+            <div class="column">
+              <img id="61aWebsite" src="61aWebsite.png" alt="Mountain View">
+              <p class="tab"> Midterm 1: </p>
+              <p class="tab"> Midterm 2: </p>
+              <p class="tab"> Final: Tuesday, May 14 (5/14), 11:30-2:30pm |
+                <a href="https://calendar.google.com/calendar/r/eventedit?text=CS61A+Final&dates=20190514T113000/20190514T143000" target="_blank">
+                add to cal</a></p>
+            </div>
       </div>
 
     </div><!-- /.container -->
-
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
