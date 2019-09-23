@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <link rel="shortcut icon" type="image/png" href="../assets/img/favicon.png"/>
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="../assets/css/projects.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
+        <title>Bear Maps</title>
+	</head>
+	<body>
+    <div id="nav">
+        <a href="../index.html" id="landing-link">about</a>
+        <a href="../work.html" id="activities-link">work</a>
+        <a href="../projects/teaching.html">teaching</a>
+        <a href="../assets/Jack Wang Resume.pdf">resume</a>
+		</div>
+    <div id="pseudobody"> <!-- overflow hidden doesn't work on body on mobile -->
+        <div id="content">
+            <div id="image-header">
+                <div id="image"><img src="../assets/img/bearmaps.png"></div>
+                <div id="title" style="color:white;">Bear Maps</div>
+            </div>
+            <div class="section">
+                <div class="section-title">Intro</div>
+                <p class="text">
+                    In CS 61B, the data structures and algorithms class, we were given a project to create a google maps esc applicaiton of Berkeley, that incorporated panning/zooming, routing using A*, location gathering using a kd-tree, and autocomplete and search using a trie.
+                </p>
+                <p> Here is a <a href="http://bearmaps-sp19-s684.herokuapp.com/map.html">link</a> to a web-applicaiton of bear Maps. </p>
+                <p> *Note: Routing does not work on this web version is currently being fixed.<p>
+            </div>
+        </div>
+        <div id="lightbox">
+            <div id="lightbox-image"><img src="../assets/img/google.jpg" class="portrait"></div>
+            <div id="overlay">
+                <div id="close"> x <br> <span>close</span></div>
+            </div>
+        </div>
+    </div>
+	</body>
+	<script type="text/javascript" src="../assets/js/projects.js"></script>
+</html>
