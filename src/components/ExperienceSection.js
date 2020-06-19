@@ -17,7 +17,7 @@ const ExperienceSection = () => {
 	return (
 		<Container text style={{ marginTop: '5em' }}>
 			<h1>Experience</h1>
-			<Grid columns={2}>
+			<Grid stackable columns={2}>
 				<Grid.Column>
 					<Container>
 						<h3>Work Experience</h3>
