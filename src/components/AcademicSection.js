@@ -4,6 +4,7 @@ import { Container, Card, List, Item, GridColumn, Grid } from 'semantic-ui-react
 const AcademicSection = () => {
 	return (
 		<Container text style={{ marginTop: '5em' }}>
+			<a name="Academics" />
 			<h1>Academics</h1>
 			<Item.Group>
 				<Item>
@@ -102,7 +103,7 @@ const AcademicSection = () => {
 											<List.Item>
 												<List.Header>Miscallaneous</List.Header>
 												<List.List>
-													<List.Item>Societal Impacts of Technolog (CS 195)</List.Item>
+													<List.Item>Societal Impacts of Technology (CS 195)</List.Item>
 													<List.Item>Linear Algebra (Math 54)</List.Item>
 													<List.Item>Multivariable Calculus (Math 53)</List.Item>
 												</List.List>
