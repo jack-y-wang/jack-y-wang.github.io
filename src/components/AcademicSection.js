@@ -1,17 +1,5 @@
 import React from 'react';
-import {
-	Container,
-	Card,
-	CardDescription,
-	Feed,
-	FeedContent,
-	List,
-	Item,
-	Icon,
-	CardContent,
-	GridColumn,
-	Grid
-} from 'semantic-ui-react';
+import { Container, Card, List, Item, GridColumn, Grid } from 'semantic-ui-react';
 
 const AcademicSection = () => {
 	return (

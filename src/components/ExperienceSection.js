@@ -1,17 +1,5 @@
 import React from 'react';
-import {
-	Container,
-	Card,
-	CardDescription,
-	Feed,
-	FeedContent,
-	List,
-	Item,
-	Icon,
-	CardContent,
-	Image,
-	Grid
-} from 'semantic-ui-react';
+import { Container, Card, Image, Grid } from 'semantic-ui-react';
 
 const ExperienceSection = () => {
 	return (
