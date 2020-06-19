@@ -15,7 +15,7 @@ const AcademicSection = () => {
 					</Item.Content>
 				</Item>
 			</Item.Group>
-			<Card.Group>
+			<Card.Group itemsPerRow={2}>
 				<Card>
 					<Card.Content>
 						<Item.Group>
