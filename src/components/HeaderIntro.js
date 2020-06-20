@@ -32,7 +32,7 @@ const HeaderIntro = () => {
 				, Intro to CS, and{' '}
 				<a href="http://www-inst.eecs.berkeley.edu/~cs61b/sp20/" target="_blank">
 					CS61B
-				</a>{' '}
+				</a>
 				, data structures.
 			</p>
 			<p>

@@ -28,7 +28,7 @@ const SFMotorsCard = () => {
 								</List.Item>
 								<List.Item>
 									<List.Header>Spring 2019</List.Header>
-									<List items={[ 'CS61A Lab Assistant' ]} />
+									<List items={[ 'CS61A Tutor' ]} />
 								</List.Item>
 							</List>
 						</Item.Content>
