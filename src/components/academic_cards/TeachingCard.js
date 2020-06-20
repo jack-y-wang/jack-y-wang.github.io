@@ -33,16 +33,6 @@ const SFMotorsCard = () => {
 							</List>
 						</Item.Content>
 					</Item>
-
-					<Item>
-						<Item.Content>
-							<Item.Header>Awards</Item.Header>
-							<List size="small">
-								<List.Item>Dean's Scholar</List.Item>
-								<List.Item>Eta Kappa Nu (HKN) - EECS Honors Society</List.Item>
-							</List>
-						</Item.Content>
-					</Item>
 				</Item.Group>
 			</Card.Content>
 		</Card>

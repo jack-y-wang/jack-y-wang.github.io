@@ -26,13 +26,13 @@ export default class PageMenu extends React.Component {
 				<Menu borderless style={menuStyle} fixed="top">
 					<Container text={barPassed ? false : true} vertical={barPassed ? true : false}>
 						<Menu.Item>
-							<a href="#Academics">academics</a>
+							<a href="#Academics">Academics</a>
 						</Menu.Item>
 						<Menu.Item>
-							<a href="#Experience">experience</a>
+							<a href="#Experience">Experience</a>
 						</Menu.Item>
 						<Menu.Item>
-							<a href="/jackwang_resume.pdf">resume</a>
+							<a href="/jackwang_resume.pdf">Resume</a>
 						</Menu.Item>
 						<Menu.Item position="right">
 							<Image size="mini" src="./imgs/favicon.png" />

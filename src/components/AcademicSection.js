@@ -1,11 +1,13 @@
 import React from 'react';
 import { Container, Menu, Card, List, Item, GridColumn, Grid } from 'semantic-ui-react';
-import TeachingCard from './TeachingCard';
-import CourseworkCard from './CourseworkCard';
-import UNCFCard from './UNCFCard';
-import Card61B from './Card61B';
-import Card61A from './Card61A';
-import CSMCard from './CSMCard';
+import TeachingCard from './academic_cards/TeachingCard';
+import CourseworkCard from './academic_cards/CourseworkCard';
+import UNCFCard from './academic_cards/UNCFCard';
+import Card61B from './academic_cards/Card61B';
+import Card61A from './academic_cards/Card61A';
+import CSMCard from './academic_cards/CSMCard';
+import OrgCard from './academic_cards/OrgCard';
+import HKNCard from './academic_cards/HKNCard';
 
 const AcademicSection = () => {
 	return (
@@ -17,8 +19,10 @@ const AcademicSection = () => {
 					<Item.Content>
 						<Item.Header>Education</Item.Header>
 						<Item.Meta>University of California, Berkeley</Item.Meta>
-						<Item.Description>B.S. in Electrical Engineering & Computer Science (EECS)</Item.Description>
-						<Item.Extra>2017-2021</Item.Extra>
+						<Item.Description>
+							B.S. in Electrical Engineering & Computer Science (EECS) // 2017-2021
+						</Item.Description>
+						<Item.Extra>Awards: Dean's Scholar, Eta Kappa Nu (EECS Honor's Society)</Item.Extra>
 					</Item.Content>
 				</Item>
 			</Item.Group>
@@ -53,6 +57,7 @@ class AcademicMenu extends React.Component {
 					<Grid stackable columns={2}>
 						<Grid.Column>
 							<TeachingCard />
+							<OrgCard />
 						</Grid.Column>
 						<Grid.Column>
 							<CourseworkCard />
@@ -75,10 +80,11 @@ class AcademicMenu extends React.Component {
 				{this.state.activeItem == 'organizations' && (
 					<Grid stackable columns={2}>
 						<Grid.Column>
-							<Card61B />
+							<OrgCard />
 						</Grid.Column>
 						<Grid.Column>
 							<CSMCard />
+							<HKNCard />
 						</Grid.Column>
 					</Grid>
 				)}

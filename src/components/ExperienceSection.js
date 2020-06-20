@@ -1,8 +1,7 @@
 import React from 'react';
 import { Container, Card, Image, Grid, Modal, Header } from 'semantic-ui-react';
-import AmazonCard from './AmazonCard';
-import UNCFCard from './UNCFCard';
-import SFMotorsCard from './SFMotorsCard';
+import AmazonCard from './experience_cards/AmazonCard';
+import SFMotorsCard from './experience_cards/SFMotorsCard';
 
 const ExperienceSection = () => {
 	return (
