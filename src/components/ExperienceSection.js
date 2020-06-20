@@ -2,6 +2,8 @@ import React from 'react';
 import { Container, Card, Image, Grid, Modal, Header } from 'semantic-ui-react';
 import AmazonCard from './experience_cards/AmazonCard';
 import SFMotorsCard from './experience_cards/SFMotorsCard';
+import BearMapsCard from './experience_cards/BearMapsCard';
+import MazeCard from './experience_cards/MazeCard';
 
 const ExperienceSection = () => {
 	return (
@@ -19,20 +21,8 @@ const ExperienceSection = () => {
 				<Grid.Column>
 					<Container>
 						<h3>Projects</h3>
-						<Card fluid>
-							<Image src="/imgs/bearmap-card.png" />
-							<Card.Content>
-								<Card.Header>Bear Maps</Card.Header>
-								<Card.Description>Java, Heroku</Card.Description>
-							</Card.Content>
-						</Card>
-						<Card fluid>
-							<Image src="/imgs/mazeapp.png" />
-							<Card.Content>
-								<Card.Header>Maze Traversals</Card.Header>
-								<Card.Description>HTML, CSS, Javascript</Card.Description>
-							</Card.Content>
-						</Card>
+						<BearMapsCard />
+						<MazeCard />
 					</Container>
 				</Grid.Column>
 			</Grid>
