@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Menu, Card, List, Item, GridColumn, Grid } from 'semantic-ui-react';
+import { Container, Menu, Item, Grid } from 'semantic-ui-react';
 import TeachingCard from './academic_cards/TeachingCard';
 import CourseworkCard from './academic_cards/CourseworkCard';
 import UNCFCard from './academic_cards/UNCFCard';

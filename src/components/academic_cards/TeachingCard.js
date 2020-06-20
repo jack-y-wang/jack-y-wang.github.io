@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Image, Modal, Header, List, Item } from 'semantic-ui-react';
+import { Card, List, Item } from 'semantic-ui-react';
 
 const SFMotorsCard = () => {
 	return (

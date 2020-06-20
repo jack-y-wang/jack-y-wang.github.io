@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Card, Image, Grid, Modal, Header } from 'semantic-ui-react';
+import { Container, Grid } from 'semantic-ui-react';
 import AmazonCard from './experience_cards/AmazonCard';
 import SFMotorsCard from './experience_cards/SFMotorsCard';
 import BearMapsCard from './experience_cards/BearMapsCard';
