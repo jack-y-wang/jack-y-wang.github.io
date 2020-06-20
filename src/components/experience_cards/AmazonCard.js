@@ -19,9 +19,9 @@ const AmazonCard = () => {
 				<Modal.Description>
 					<Header>AWS Elastic Block Store (EBS) Infratructure</Header>
 					<p>
-						I was an intern on the AWS EBS Fleet team which is responsible for the infratructure and
-						provisioin of EBS Servers. I helped the offline capacity of EBS Servers by implementing a
-						framework that can be used to automate the rebuilding process to instead of requiring manual
+						Intern on the AWS EBS Fleet team which is responsible for the infratructure and provisioning of
+						EBS Servers. I helped reduce the offline capacity of EBS Servers by implementing a framework
+						that can be used to automate the rebuilding process of servers to instead of requiring manual
 						intervention.
 					</p>
 					<p>Technologies: Java, Amazon Simple Workflow, AWS</p>

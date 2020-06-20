@@ -13,13 +13,20 @@ const Card61B = () => {
 				</Card>
 			}
 		>
-			<Modal.Header>UNCF: United Negro College Fund</Modal.Header>
+			<Modal.Header>CS 61B: Data Structures</Modal.Header>
 			<Modal.Content image>
 				<Image size="medium" src="/imgs/61b-logo.png" />
 				<Modal.Description>
-					<Header>Data Structures Tutor</Header>
-					<p>Taught 61B</p>
-					<p>Technologies: python, codio</p>
+					<Header>Tutor - Spring 2020, Fall 2020</Header>
+					<p>
+						Taught and developed content for two weekly data structures discussions, and hosted office hours
+						for{' '}
+						<a href="http://www-inst.eecs.berkeley.edu/~cs61b/sp20/" target="_blank">
+							CS61B
+						</a>
+						, which covers the following topics: Java, OOP, inheritance, asymptotic analysis, data
+						structures, and algorithms.
+					</p>
 				</Modal.Description>
 			</Modal.Content>
 		</Modal>

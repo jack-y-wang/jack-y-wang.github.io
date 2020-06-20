@@ -13,13 +13,26 @@ const CSMCard = () => {
 				</Card>
 			}
 		>
-			<Modal.Header>UNCF: United Negro College Fund</Modal.Header>
+			<Modal.Header>CS 88: Computational Structures for Data Science</Modal.Header>
 			<Modal.Content image>
 				<Image size="medium" src="/imgs/csm.png" />
 				<Modal.Description>
-					<Header>Data Structures Tutor</Header>
-					<p>Taught 61B</p>
-					<p>Technologies: python, codio</p>
+					<Header>Senior Mentor - Fall 2020, Spring 2020, Fall 2019</Header>
+					<p>
+						In{' '}
+						<a href="https://csmentors.berkeley.edu/#/" target="_blank">
+							Computer Science Mentors
+						</a>, I am mentor for {' '}
+						<a href="https://cs88-website.github.io/" target="_blank">
+							CS 88
+						</a>
+						, our introductory computer science class for data science majors covering python, higher order
+						functions, recursion, abstract data types, OOP, and introductory data structures.
+					</p>
+					<p>
+						Led weekly family meetings for six junior mentors to learn about pedagogy. Interviewed candidate
+						mentors and developed course content, including review slides, worksheets, and teaching guides.
+					</p>
 				</Modal.Description>
 			</Modal.Content>
 		</Modal>

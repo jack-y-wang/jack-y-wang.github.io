@@ -13,13 +13,27 @@ const HKNCard = () => {
 				</Card>
 			}
 		>
-			<Modal.Header>UNCF: United Negro College Fund</Modal.Header>
+			<Modal.Header>HKN - Eta Kappa Nu</Modal.Header>
 			<Modal.Content image>
 				<Image size="medium" src="/imgs/hkn.jpg" />
 				<Modal.Description>
-					<Header>Data Structures Tutor</Header>
-					<p>Taught 61B</p>
-					<p>Technologies: python, codio</p>
+					<Header>Executive Member - Fall 2020, Spring 2020</Header>
+					<p>
+						<a href="https://hkn.mu" target="_blank">
+							HKN
+						</a>{' '}
+						is an EECS honors society that focuses on providing services to the student community and
+						Berkeley community. Example of services we provide are: review sessions for midterms/finals,
+						senior workshops, hackathons for high school students, course planning workshops, and more.
+					</p>
+					<p>
+						I help manage and discuss how our orgnization can help improve the EECS undergraduate experience
+						and community. I coordinate with the EECS department to post professor and TA{' '}
+						<a href="https://cs88-website.github.io/" target="_blank">
+							course survey ratings
+						</a>{' '}
+						on our website to assist with course hiring and communicate with the national chapter of HKN.
+					</p>
 				</Modal.Description>
 			</Modal.Content>
 		</Modal>
