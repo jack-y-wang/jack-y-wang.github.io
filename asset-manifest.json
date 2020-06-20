@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "//jack-y-wang.github.io/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "//jack-y-wang.github.io/static/js/main.b5aac22d.chunk.js",
+    "main.js.map": "//jack-y-wang.github.io/static/js/main.b5aac22d.chunk.js.map",
+    "runtime-main.js": "//jack-y-wang.github.io/static/js/runtime-main.48d42a05.js",
+    "runtime-main.js.map": "//jack-y-wang.github.io/static/js/runtime-main.48d42a05.js.map",
+    "static/js/2.c0b5dd9b.chunk.js": "//jack-y-wang.github.io/static/js/2.c0b5dd9b.chunk.js",
+    "static/js/2.c0b5dd9b.chunk.js.map": "//jack-y-wang.github.io/static/js/2.c0b5dd9b.chunk.js.map",
+    "index.html": "//jack-y-wang.github.io/index.html",
+    "precache-manifest.404c4c975db2ff473729901b6478da77.js": "//jack-y-wang.github.io/precache-manifest.404c4c975db2ff473729901b6478da77.js",
+    "service-worker.js": "//jack-y-wang.github.io/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "//jack-y-wang.github.io/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.c0b5dd9b.chunk.js.LICENSE.txt": "//jack-y-wang.github.io/static/js/2.c0b5dd9b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.48d42a05.js",
+    "static/js/2.c0b5dd9b.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.b5aac22d.chunk.js"
+  ]
+}
