@@ -8,12 +8,12 @@ import Card61A from './academic_cards/Card61A';
 import CSMCard from './academic_cards/CSMCard';
 import OrgCard from './academic_cards/OrgCard';
 import HKNCard from './academic_cards/HKNCard';
+import ExperienceSection from './ExperienceSection';
 
 const AcademicSection = () => {
 	return (
 		<Container text style={{ marginTop: '5em' }}>
-			<a name="Academics" />
-			<h1>Academics</h1>
+			<h1>About Me</h1>
 			<Item.Group>
 				<Item>
 					<Item.Content>
@@ -33,7 +33,7 @@ const AcademicSection = () => {
 
 class AcademicMenu extends React.Component {
 	state = {
-		activeItem: 'overview'
+		activeItem: 'experience'
 	};
 
 	handleItemClick = (e, { name }) => this.setState({ activeItem: name });
@@ -45,25 +45,17 @@ class AcademicMenu extends React.Component {
 		return (
 			<div>
 				<Menu tabular>
-					<Menu.Item name="overview" active={activeItem === 'overview'} onClick={this.handleItemClick} />
+					<Menu.Item name="experience" active={activeItem === 'experience'} onClick={this.handleItemClick} />
 					<Menu.Item name="teaching" active={activeItem === 'teaching'} onClick={this.handleItemClick} />
 					<Menu.Item
 						name="organizations"
 						active={activeItem === 'organizations'}
 						onClick={this.handleItemClick}
 					/>
+					<Menu.Item name="coursework" active={activeItem === 'coursework'} onClick={this.handleItemClick} />
 				</Menu>
-				{this.state.activeItem == 'overview' && (
-					<Grid stackable columns={2}>
-						<Grid.Column>
-							<TeachingCard />
-							<OrgCard />
-						</Grid.Column>
-						<Grid.Column>
-							<CourseworkCard />
-						</Grid.Column>
-					</Grid>
-				)}
+
+				{this.state.activeItem == 'experience' && <ExperienceSection />}
 				{this.state.activeItem == 'teaching' && (
 					<Grid stackable columns={2}>
 						<Grid.Column>
@@ -86,6 +78,14 @@ class AcademicMenu extends React.Component {
 							<CSMCard />
 							<HKNCard />
 						</Grid.Column>
+					</Grid>
+				)}
+				{this.state.activeItem == 'coursework' && (
+					<Grid stackable columns={2}>
+						<Grid.Column>
+							<CourseworkCard />
+						</Grid.Column>
+						<Grid.Column />
 					</Grid>
 				)}
 			</div>

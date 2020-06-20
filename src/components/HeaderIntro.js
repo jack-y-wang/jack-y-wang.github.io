@@ -4,8 +4,9 @@ import { Container, Image } from 'semantic-ui-react';
 const HeaderIntro = () => {
 	return (
 		<Container text style={{ marginTop: '5em' }}>
+			<a name="Home" />
 			<Image src="./imgs/title-hi.png" size="medium" spaced="left" />
-			<Image src="./imgs/profile.jpg" size="small" floated="right" circular />
+			<Image src="./imgs/profile.jpg" size="medium" floated="right" circular />
 			<p>
 				I'm a fourth year student at{' '}
 				<a href="https://www.berkeley.edu/" target="_blank">

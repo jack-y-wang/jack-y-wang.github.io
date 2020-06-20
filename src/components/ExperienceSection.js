@@ -5,9 +5,9 @@ import SFMotorsCard from './experience_cards/SFMotorsCard';
 
 const ExperienceSection = () => {
 	return (
-		<Container text style={{ marginTop: '5em' }}>
+		<Container text>
 			<a name="Experience" />
-			<h1>Experience</h1>
+			{/* <h1>Experience</h1> */}
 			<Grid stackable columns={2}>
 				<Grid.Column>
 					<Container>

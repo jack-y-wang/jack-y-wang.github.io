@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import PageMenu from './components/PageMenu';
 import HeaderIntro from './components/HeaderIntro';
-import AcademicSection from './components/AcademicSection';
-import ExperienceSection from './components/ExperienceSection';
+import AcademicSection from './components/OverviewSection';
+// import ExperienceSection from './components/ExperienceSection';
 // import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -13,7 +13,7 @@ ReactDOM.render(
 		<PageMenu />
 		<HeaderIntro />
 		<AcademicSection />
-		<ExperienceSection />
+		{/* <ExperienceSection /> */}
 	</div>,
 	document.getElementById('root')
 );

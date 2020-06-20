@@ -26,7 +26,7 @@ export default class PageMenu extends React.Component {
 				<Menu borderless style={menuStyle} fixed="top">
 					<Container text={barPassed ? false : true} vertical={barPassed ? true : false}>
 						<Menu.Item>
-							<a href="#Academics">Academics</a>
+							<a href="#Home">Home</a>
 						</Menu.Item>
 						<Menu.Item>
 							<a href="#Experience">Experience</a>
