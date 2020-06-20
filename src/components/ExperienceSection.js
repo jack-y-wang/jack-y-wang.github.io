@@ -14,7 +14,6 @@ const ExperienceSection = () => {
 					<Container>
 						<h3>Work Experience</h3>
 						<AmazonCard />
-						<UNCFCard />
 						<SFMotorsCard />
 					</Container>
 				</Grid.Column>
