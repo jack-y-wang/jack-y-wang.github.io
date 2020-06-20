@@ -6,8 +6,8 @@ const UNCFCard = () => {
 		<Modal
 			trigger={
 				<Card fluid>
-					<Image src="/imgs/uncf.png" />
 					<Card.Content>
+						<Image floated="right" size="tiny" src="/imgs/uncf.png" />
 						<Card.Header>UNCF Instructor</Card.Header>
 					</Card.Content>
 				</Card>
