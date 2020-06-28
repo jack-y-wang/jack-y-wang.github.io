@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fa26e9e5df45240b3fc3d35a7c3b40fc",
+    "revision": "24eb5040187a82c47b3872266370b41e",
     "url": "/jack-y-wang.github.io/index.html"
   },
   {
-    "revision": "9df074721a954ab611a1",
+    "revision": "fe6d56d7313ac0cb8865",
     "url": "/jack-y-wang.github.io/static/css/main.cd30079e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jack-y-wang.github.io/static/js/2.82e1df76.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9df074721a954ab611a1",
-    "url": "/jack-y-wang.github.io/static/js/main.e803bb6a.chunk.js"
+    "revision": "fe6d56d7313ac0cb8865",
+    "url": "/jack-y-wang.github.io/static/js/main.78f075f1.chunk.js"
   },
   {
     "revision": "56f72ae2cfde4ae9b5a4",
