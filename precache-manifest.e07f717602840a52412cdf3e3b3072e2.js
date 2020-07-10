@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9fe0c82c34c16dbe0950c6927c81ecd3",
+    "revision": "75e93d550fa42d4e366d0461efbd51d4",
     "url": "/jack-y-wang.github.io/index.html"
   },
   {
